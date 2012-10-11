@@ -11,6 +11,7 @@ group :assets do
   gem 'coffee-rails', "~> 3.2.2"
   gem 'uglifier', "~> 1.0.0"
   gem 'jquery-ui-rails', "~> 2.0.0"
+  gem "therubyracer", "~> 0.9.9"
 end
 
 gem "haml", "~> 3.1.4"
@@ -66,5 +67,4 @@ end
 
 group :test do
   gem "webmock", "~> 1.6.4"
-  gem "therubyracer", "~> 0.9.9"
 end
